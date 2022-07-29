@@ -4,7 +4,8 @@
   "description": "Assignment 1",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "jsdoc": "jsdoc -c jsdoc.json"
   },
   "author": "Vivek uniyal",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "dotenv": "^16.0.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+    "jsdoc": "^3.6.11",
     "mongodb": "^4.8.1",
     "multer": "^1.4.5-lts.1"
   }

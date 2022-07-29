@@ -1,0 +1,23 @@
+{
+    "plugins": ["plugins/markdown"],
+    "recurseDepth": 10,
+    "source": {
+        "include":["routes","controllers","dataBase","server.js"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules|docs)"
+    },
+    "sourceType": "module",
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": ["jsdoc","closure"]
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts": {         
+        "destination": "./jsdoc",          
+        "recurse": true,
+        "readme":"./readme.md"               
+    }
+}
